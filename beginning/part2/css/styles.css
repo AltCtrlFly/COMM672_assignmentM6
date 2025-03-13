@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #efefef;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  list-style-type: none;
+}
+nav li {
+  justify-content: flex-end;
+  margin-left: auto;
+}
+.button {
+  background-color: #e6a563;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+.hero {
+  background-color: #ffcf83;
+  margin: 30px 0;
+  padding-top: 1.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero h1, p {
+  width: 50%;
+  margin: 30px;
+}
+.hero-cat {
+  width: 25%;
+}
+.features {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  gap: 1em;
+}
+.features-block {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+
+}
+.testimonials {
+  background-color: #222e50;
+}
+.testimonials h2 {
+  color: white;
+}
+.testimonial-block {
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+.team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+.team h2 {
+  display: flex;
+  justify-self: start;
+}
+footer {
+  background-color: #d9d9d9;
+}
