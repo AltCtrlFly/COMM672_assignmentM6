@@ -5,74 +5,131 @@
 }
 body {
   background-color: #efefef;
+  font-family: Arial, Helvetica, sans-serif;
 }
-nav ul {
+/* navigation */
+nav {
   display: flex;
+  justify-content: space-between;
+  margin: 1em;
+  padding: 1em;
+  align-items: center;
+}
+.nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
   align-items: center;
   gap: 1em;
-  list-style-type: none;
 }
-nav li {
+.nav li {
+  display: flex;
   justify-content: flex-end;
-  margin-left: auto;
+  margin-right: 0;
+}
+.nav a {
+  text-decoration: none;
+  color: black;
 }
 .button {
   background-color: #e6a563;
   border-radius: 10px;
   padding: 5px 10px;
 }
+/* hero cat */
 .hero {
   background-color: #ffcf83;
   margin: 30px 0;
-  padding-top: 1.5em;
-  display: flex;
+  padding: 30px;
+  display:flex;
   justify-content: space-between;
   align-items: center;
 }
-.hero h1, p {
+.container {
+  align-items: center;
+}
+.hero h1, .hero p {
+  padding: 1em;
+  margin: 0 30px;
   width: 50%;
-  margin: 30px;
 }
 .hero-cat {
+  display: flex;
   width: 25%;
+  padding: 0 30px;
+}
+/* features */
+.features-header {
+  text-align: center;
 }
 .features {
   display: flex;
-  justify-content: space-between;
-  text-align: center;
-  align-items: center;
-  gap: 1em;
-}
-.features-block {
-  background-color: white;
-  display: flex;
   justify-content: center;
-
+  align-items: flex-start;
+  gap: 2em;
+  margin: 2em 0;
 }
+.feature-block {
+  background-color: white;
+  width: 25%;
+  text-align: center;
+  padding: 2em;
+}
+.feature-block h3 {
+  padding: 1em 0;
+}
+.features-header p {
+  flex-wrap: balance;
+}
+.feature-block a {
+  color: #e6a563;
+}
+/* testimonials */
 .testimonials {
   background-color: #222e50;
+  padding: 2em;
 }
-.testimonials h2 {
+.testimonials-header {
   color: white;
+  text-align: center;
+  padding-bottom: 2em;
+}
+.testimonials .container {
+  display: flex;
+  justify-content: center;
+  gap: 3em;
 }
 .testimonial-block {
   background-color: white;
-  color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1em;
+  width: 25%;
+  height: 150px;
+  align-self: flex-start;
+  text-align: left;
+  padding: 1em;
 }
+/* team */
 .team {
   display: flex;
-  justify-content: center;
+  justify-content:center;
   align-items: center;
-  gap: 1em;
+  gap: 5em;
+  padding: 2em;
 }
-.team h2 {
-  display: flex;
-  justify-self: start;
+.team-block {
+  text-align: center;
+}
+.team-header {
+  text-align: center;
+  padding-top: 1em;
 }
 footer {
   background-color: #d9d9d9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1em;
+}
+.social-media {
+  padding: 10px;
 }
