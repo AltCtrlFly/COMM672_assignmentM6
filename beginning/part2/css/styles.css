@@ -55,7 +55,7 @@ nav {
 }
 .hero-cat {
   display: flex;
-  width: 25%;
+  width: 50%;
   padding: 0 30px;
 }
 /* features */
@@ -68,12 +68,14 @@ nav {
   align-items: flex-start;
   gap: 2em;
   margin: 2em 0;
+  flex-wrap: wrap;
 }
 .feature-block {
   background-color: white;
   width: 25%;
   text-align: center;
   padding: 2em;
+  
 }
 .feature-block h3 {
   padding: 1em 0;
@@ -102,10 +104,11 @@ nav {
 .testimonial-block {
   background-color: white;
   width: 25%;
-  height: 150px;
+  height: 250px;
   align-self: flex-start;
   text-align: left;
   padding: 1em;
+  flex-wrap: wrap;
 }
 /* team */
 .team {
